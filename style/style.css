@@ -260,7 +260,8 @@ body{
 }
 
 .main__way-text{
-    width: 777px;
+    max-width: 777px;
+    width: 100%;
     letter-spacing: 0.8px;
     color: #A0A0A0;
 }
@@ -434,6 +435,169 @@ body{
     color: #000;
 }
 
-@media (max-width) {
-    
+@media (max-width: 992px) {
+    .container{
+        max-width: 960px;
+    }
+    .main__devices-item{
+        width: 22.4%;
+    }
+    .main__way-image{
+        width: 100%;
+    }
+
+    .main__way-image img{
+        width: 100%;
+    }
+
+    .main__workers-images{
+        justify-content: center;
+    }
+
+    .main__workers-images img{
+        width: 22%;
+    }
+
+    .footer__content-list{
+        width: 20%;
+    }
+}
+@media (max-width: 768px) {
+        .container{
+            max-width: 720px;
+        }
+        .header__nav-logo img{
+            width: 80%;
+        }
+        .header__content-title{
+            font-size: 36px;
+        }
+        .main__desks-title{
+            font-size: 36px;
+        }
+        .main__desks-about{
+            flex-direction: column;
+        }
+        .main__desk-infoTitle{
+            font-size: 36px;
+        }
+        .main__devices-block{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .main__devices-item{
+            width: 32%;
+        }
+        .main__devices-productTitle{
+            font-size: 16px;
+        }
+        .main__devices-productSpan{
+            font-size: 14px;
+        }
+        .main__office-title{
+            font-size: 46px;
+        }
+        .main__office-text{
+            font-size: 12px;
+        }
+        .main__office-link{
+            font-size: 14px;
+        }
+        .main__way-title{
+            font-size: 27px;
+        }
+        .main__way-text{
+            max-width: 665px;
+            font-size: 14px;
+        }
+        .footer__content-goUp{
+            padding: 20px;
+        }
+        .footer__content-link{
+            font-size: 19px;
+        }
+        .footer__content-signUp{
+            width: 49%;
+        }
+        .footer__content-text{
+            font-size: 16px;
+        }
+}
+@media (max-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+    .main__office-title{
+        font-size: 40px;
+    }
+    .main__way-text{
+        font-size: 14px;
+    }
+    .footer__content-list{
+        width: 30%;
+    }
+    .footer__content-signUp{
+        width: 65%;
+    }
+    .footer__content-links{
+        gap: 15px;
+    }
+    .footer__content-privacy{
+        font-size: 11px;
+    }
+}
+@media (max-width: 540px){
+    .container{
+        width: 90%;
+    }
+    .main__office-text{
+        width: 50%;
+        text-align: center;
+    }
+    .main__way-text{
+        font-size: 12px;
+    }
+    .main__workers-title{
+        font-size: 27px;
+    }
+    .main__workers-text{
+        width: 100%;
+    }
+    .main__workers-images img{
+        width: 21%;
+    }
+    .main__design-title{
+        font-size: 34px;
+    }
+    .main__design-text{
+        font-size: 12px;
+    }
+    .footer__content-info{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .footer__content-aboutOur{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .footer__content-signUp{
+        text-align: center;
+    }
+    .footer__content-list{
+        width: 100%;
+        align-items: center;
+    }
+    .footer__content-link{
+        font-size: 24px;
+    }
+    .footer__content-goUp{
+        width: 10%;
+    }
+    .footer__content-links{
+        flex-direction: column;
+        align-items: center;
+    }
 }
